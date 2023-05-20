@@ -118,7 +118,7 @@
 		<single>sekcja</single>
 		<multiple>sekcje</multiple>
     </term>
-    <term name="sub verbo">
+    <term name="sub-verbo">
 		<single>sub verbo</single>
 		<multiple>sub verbis</multiple>
     </term>
@@ -211,7 +211,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name name-as-sort-order="all" and="" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="contextual"/>
+      <name name-as-sort-order="all" and="text" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="contextual"/>
       <label form="short" prefix=" (" suffix=".)" text-case="capitalize-first" strip-periods="true"/>
       <substitute>
         <names variable="editor"/>
@@ -222,7 +222,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="" delimiter=", " initialize-with=". "/>
+      <name form="short" and="text" delimiter=", " initialize-with=". "/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
